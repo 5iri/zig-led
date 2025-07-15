@@ -26,7 +26,7 @@ This repository is a **self-contained RISC-V SoC simulation** showcasing:
 
 | Tool                            | Purpose                       |
 |---------------------------------|-------------------------------|
-| **Zig 0.12+**                   | Compile firmware              |
+| **Zig 0.14+**                   | Compile firmware              |
 | **RISC-V GCC** (`riscv64-unknown-elf-*`) | objcopy / objdump utilities |
 | **Python 3.10+** & **pip**      | Run cocotb tests              |
 | **Verilator 5.x** *(or Icarus)* | RTL simulation                |
