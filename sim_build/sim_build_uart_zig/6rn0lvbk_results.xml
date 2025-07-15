@@ -1,0 +1,8 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1752587158" />
+    <testcase name="test_uart_zig_hello" classname="test_uart_zig" file="/Users/lazybanana/github/zig-led/test_uart_zig.py" lineno="110" time="29.577587127685547" sim_time_ns="30000080.001" ratio_time="1014284.223776962">
+      <failure message="Test failed with RANDOM_SEED=1752587158" />
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,5 @@
+sim_build
+.zig-cache
+.pytest_cache
+__pycache__
+

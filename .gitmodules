@@ -1,0 +1,3 @@
+[submodule "synapse32"]
+	path = synapse32
+	url = git@github.com:SRA-VJTI/synapse32.git

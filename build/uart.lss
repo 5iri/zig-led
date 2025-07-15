@@ -1,0 +1,94 @@
+
+/Users/lazybanana/github/zig-led/build/main.elf:     file format elf32-littleriscv
+
+SYMBOL TABLE:
+no symbols
+
+
+
+Disassembly of section .text:
+
+00000000 <.text>:
+   0:	ff010113          	addi	x2,x2,-16
+   4:	00112623          	sw	x1,12(x2)
+   8:	00812423          	sw	x8,8(x2)
+   c:	20000537          	lui	x10,0x20000
+  10:	000015b7          	lui	x11,0x1
+  14:	45858593          	addi	x11,x11,1112 # 0x1458
+  18:	00b52623          	sw	x11,12(x10) # 0x2000000c
+  1c:	00100413          	addi	x8,x0,1
+  20:	00852423          	sw	x8,8(x10)
+  24:	00000537          	lui	x10,0x0
+  28:	09250513          	addi	x10,x10,146 # 0x92
+  2c:	00000097          	auipc	x1,0x0
+  30:	024080e7          	jalr	x1,36(x1) # 0x50
+  34:	00000537          	lui	x10,0x0
+  38:	08050513          	addi	x10,x10,128 # 0x80
+  3c:	00000097          	auipc	x1,0x0
+  40:	014080e7          	jalr	x1,20(x1) # 0x50
+  44:	10000537          	lui	x10,0x10000
+  48:	0e852fa3          	sw	x8,255(x10) # 0x100000ff
+  4c:	0000006f          	jal	x0,0x4c
+  50:	00000593          	addi	x11,x0,0
+  54:	20000637          	lui	x12,0x20000
+  58:	00b506b3          	add	x13,x10,x11
+  5c:	0006c683          	lbu	x13,0(x13)
+  60:	00068e63          	beq	x13,x0,0x7c
+  64:	00462703          	lw	x14,4(x12) # 0x20000004
+  68:	00477713          	andi	x14,x14,4
+  6c:	fe071ce3          	bne	x14,x0,0x64
+  70:	00d62023          	sw	x13,0(x12)
+  74:	00158593          	addi	x11,x11,1
+  78:	fe1ff06f          	jal	x0,0x58
+  7c:	00008067          	jalr	x0,0(x1)
+  80:	6854                	.insn	2, 0x6854
+  82:	2065                	.insn	2, 0x2065
+  84:	6e61                	.insn	2, 0x6e61
+  86:	72657773          	.insn	4, 0x72657773
+  8a:	6920                	.insn	2, 0x6920
+  8c:	32342073          	.insn	4, 0x32342073
+  90:	002e                	.insn	2, 0x002e
+  92:	6548                	.insn	2, 0x6548
+  94:	6c6c                	.insn	2, 0x6c6c
+  96:	7266206f          	jal	x0,0x627bc
+  9a:	52206d6f          	jal	x26,0x65bc
+  9e:	5349                	.insn	2, 0x5349
+  a0:	20562d43          	.insn	4, 0x20562d43
+  a4:	21555043          	.insn	4, 0x21555043
+	...
+
+Disassembly of section .riscv.attributes:
+
+00000000 <.riscv.attributes>:
+   0:	1b41                	.insn	2, 0x1b41
+   2:	0000                	.insn	2, 0x
+   4:	7200                	.insn	2, 0x7200
+   6:	7369                	.insn	2, 0x7369
+   8:	01007663          	bgeu	x0,x16,0x14
+   c:	0011                	.insn	2, 0x0011
+   e:	0000                	.insn	2, 0x
+  10:	1004                	.insn	2, 0x1004
+  12:	7205                	.insn	2, 0x7205
+  14:	3376                	.insn	2, 0x3376
+  16:	6932                	.insn	2, 0x6932
+  18:	7032                	.insn	2, 0x7032
+  1a:	0031                	.insn	2, 0x0031
+
+Disassembly of section .comment:
+
+00000000 <.comment>:
+   0:	694c                	.insn	2, 0x694c
+   2:	6b6e                	.insn	2, 0x6b6e
+   4:	7265                	.insn	2, 0x7265
+   6:	203a                	.insn	2, 0x203a
+   8:	6f48                	.insn	2, 0x6f48
+   a:	656d                	.insn	2, 0x656d
+   c:	7262                	.insn	2, 0x7262
+   e:	7765                	.insn	2, 0x7765
+  10:	4c20                	.insn	2, 0x4c20
+  12:	444c                	.insn	2, 0x444c
+  14:	3120                	.insn	2, 0x3120
+  16:	2e39                	.insn	2, 0x2e39
+  18:	2e31                	.insn	2, 0x2e31
+  1a:	Address 0x1a is out of bounds.
+
